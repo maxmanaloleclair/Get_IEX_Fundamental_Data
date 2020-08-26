@@ -44,7 +44,7 @@ import os
 
 1) Set API Key. Yours will differ from mine below. *You must use the sandbox api key to run the following code. 
 ```sh
-token = 'Tpk_170ff477f7c148849ac1611015e393e7' 
+token = 'Tpk_' 
 ```
 2) Select any number of tickers and store in a list. 
 ```sh
