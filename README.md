@@ -15,7 +15,7 @@ A python project that demonstrates how to download IEX cloud data. Further proje
   
 # Steps
 
-  - Register for IEX Cloud (a paid subscription is required for this data)
+  - Register for [IEX Cloud](https://iexcloud.io/). The documentation for the API can be found [here](https://iexcloud.io/docs/api/). Note, a paid subscription is required for real data. 
   - Select tickers
   - Choose quarterly or annual data
   - Dowload data to CSV
@@ -42,9 +42,9 @@ import os
 
 ### Steps
 
-1) Set API Key. Yours will differ from mine below. *You must use the sandbox api key to run the following code. 
+1) Set API Key. *You must use the sandbox api key to run the following code. This will allow you to test the feature without paying for IEX cloud premium data. 
 ```sh
-token = 'Tpk_' 
+token = 'Tpk_####aaaa#####aaaaa' 
 ```
 2) Select any number of tickers and store in a list. 
 ```sh
