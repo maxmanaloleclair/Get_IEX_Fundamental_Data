@@ -10,7 +10,7 @@ A python project that demonstrates how to download IEX cloud data. Further proje
 
 # Key Features
 
-  - Dynamically read and save JSON data to a dataframe, even annual or quarterly reports are missing from IEX's dataset
+  - Dynamically read and save JSON data to a dataframe, even annual if or quarterly reports are missing from IEX's dataset
  
   
 # Steps
