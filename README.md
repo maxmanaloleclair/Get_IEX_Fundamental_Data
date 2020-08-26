@@ -83,14 +83,14 @@ Now you are ready to check out the rest of the code. The for loops that make up 
    - Not all companies/tickers you select will have the same number of filings. Therefore, constructing the JSON URL and dataframe can not be looped through without iterrows. 
  - Statement data is stored in dictionaries within the JSON data. See the example below.
 
-    | Plugin | README |
+    | Ticker | README |
     | ------ | -------------------------------|
-    | Ticker | {'reportDate': '2019-09-26', 'fiscalDate': '2019-09-25', 'currency': 'USD','currentCash': 5601194501,'shortTermInvestments': None,'receivables': 13124947688, 'inventory': 1706643347, 'otherCurrentAssets': 1002026188,'currentAssets': 24300140861, 'longTermInvestments': 3368672438, 'propertyPlantEquipment': 32919501919, 'goodwill': 82754155898, 'intangibleAssets': 24105219314, 'otherAssets': 32945312127,'totalAssets': 195163570169,'accountsPayable': 14239033126,'currentLongTermDebt': 8993552148, 'otherCurrentLiabilities': 8890690430,'totalCurrentLiabilities': 32706996812, 'longTermDebt': 38955455233,'otherLiabilities': 9309880181, 'minorityInterest': 474558734,'totalLiabilities': 94222282915,'commonStock': 1845942405,'retainedEarnings': 44118898231,'treasuryStock': 3324025,'capitalSurplus': None,'shareholderEquity': 93147196380,'netTangibleAssets': -99038010007}] |
+    | MMM | {'reportDate': '2019-09-26', 'fiscalDate': '2019-09-25', 'currency': 'USD','currentCash': 5601194501,'shortTermInvestments': None,'receivables': 13124947688, 'inventory': 1706643347, 'otherCurrentAssets': 1002026188,'currentAssets': 24300140861, 'longTermInvestments': 3368672438, 'propertyPlantEquipment': 32919501919, 'goodwill': 82754155898, 'intangibleAssets': 24105219314, 'otherAssets': 32945312127,'totalAssets': 195163570169,'accountsPayable': 14239033126,'currentLongTermDebt': 8993552148, 'otherCurrentLiabilities': 8890690430,'totalCurrentLiabilities': 32706996812, 'longTermDebt': 38955455233,'otherLiabilities': 9309880181, 'minorityInterest': 474558734,'totalLiabilities': 94222282915,'commonStock': 1845942405,'retainedEarnings': 44118898231,'treasuryStock': 3324025,'capitalSurplus': None,'shareholderEquity': 93147196380,'netTangibleAssets': -99038010007}] |
 
 
 ### Todos
 
- - Write MORE Tests
+ - Write more Tests
  - Check if code works for other IEX cloud data
 
 License
